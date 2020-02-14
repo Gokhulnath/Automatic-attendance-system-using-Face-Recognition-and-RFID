@@ -2,7 +2,7 @@
 Automatic Attendance system using Face Recogniton and RFID
 
 
-#Project Summary:
+# Project Summary:
 
 
 Attendance in colleges is generally paper based which may sometimes cause errors. Taking attendance manually consumes more time. So, the proposed attendance system uses RFID technology to take attendance. In this system, each student is issued an RFID tag which is used to identify them whenever the reader is switched on, it will take the attendance. This kind of method increases accuracy and time efficient attendance system. Through this method teacher’s work of updating attendance in the database is reduced and providing less time in taking attendance during the class hours.
