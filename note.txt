@@ -1,2 +1,21 @@
 sudo modprobe usbserial vendor=0x1a86 product=0x7523
 sudo chmod 777 /dev/ttyUSB0
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo date --set="01 FEB 2020 23:10:07"
+
+
+
+
+os.system("python3 click.py")

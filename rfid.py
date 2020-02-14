@@ -4,6 +4,7 @@ from openpyxl.cell import cell
 import time
 import re
 import serial
+from serial import Serial
 import signal
 from contextlib import contextmanager
 
@@ -35,6 +36,7 @@ def rfidread():
 		ser_bytes=ser_bytes[24:26]
 		ser_bytes=re.sub('[^0-9]', '', ser_bytes)
 		ser_bytes=int('0'+ser_bytes)
+		print(ser_bytes)
 		if(ser_bytes!=0):
 			attend[ser_bytes]+=1
 

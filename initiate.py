@@ -12,7 +12,7 @@ while(ch!=5):
 	if(ch==2):
 		os.system("python3 train.py")
 		os.system("python3 get_status.py")
-		pic=input("Enter image name to start the process: ")
+		pic="test.jpg"
 		os.system("python3 detect.py "+pic)
 		os.system("python3 spreadsheet.py")
 		os.system("python3 identify.py")

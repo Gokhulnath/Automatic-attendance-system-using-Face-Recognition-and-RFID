@@ -44,7 +44,7 @@ while(True):
         cv2.imwrite(folderPath + "/User." + Id + "." + str(sampleNum) + ".jpg",
                     img[d.top():d.bottom(), d.left():d.right()])                                                # Saving the faces
         cv2.rectangle(img, (d.left(), d.top())  ,(d.right(), d.bottom()),(0,255,0) ,2) # Forming the rectangle
-        cv2.waitKey(200)                                                        # waiting time of 200 milisecond
+        cv2.waitKey(500)                                                        # waiting time of 500 milisecond
     cv2.imshow('frame', img)                                                    # showing the video input from camera on window
     cv2.waitKey(1)
     if(sampleNum >= 20):                                                        # will take 20 faces
