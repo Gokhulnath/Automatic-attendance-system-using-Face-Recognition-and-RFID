@@ -8,4 +8,7 @@ Attendance in colleges is generally paper based which may sometimes cause errors
 Each student will be provided with a unique RFID tag with a unique number registered to it. This tag will be attached to their identity card. Every class will be attached with a RFID reader (long range reader). The reader will be turned on automatically for first 10 minutes and the last 10 minutes of the period, so the students entering after 10 minutes will be marked absent and the students who are not present in the last 10 minutes will also be marked absent. Through this way we can ensure the presence of students throughout the period. To ensure the maximum accuracy in the data, there will be a camera fixed to the reader which takes a snap of the class and identifies each faces of the students and cross checks with the RFID attendance. This method is important as students may leave their RFID tags in class which may lead to a positive attention beside their physical absence. By this collection of different data, we can take accurate attendance without any deviations.
 
 
-I have attached the detailed explanation of the project as PDF feel free to go through it.Thank you!!
+Take a look of the detailed explanation of the project in the pdf attached,
+[Detailed Explanation](https://github.com/Gokhulnath/Automatic-attendance-system-using-Face-Recognition-and-RFID/blob/master/Detailed%20Report%20of%20the%20project.pdf)
+
+Thank you!!
